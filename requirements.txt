@@ -1,0 +1,8 @@
+requests
+numpy
+pandas
+scipy
+joblib
+fastapi
+uvicorn
+pymongo

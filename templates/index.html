@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Movie Recommender</li>
+        </ul>
+    </nav>
+    <!-- Search Bar  -->
+    <div class="search-box">
+        <section>
+            <input id="movie-search-bar" name="MovieName" type="text" placeholder="Enter a Movie Name" autocomplete="on">
+            <button class="btn" id="search-btn">Search</button>
+        </section>
+    </div>
+    <!-- Searched Movie Details -->
+    <div class="suggestion">
+        <div class="result-box">
+            <!-- Generated using DisplaySuggestions() -->
+        </div>
+    </div>
+    <div class="container">
+        <!-- Generated Using  ShowMovieDetails()-->
+    </div>
+    <!-- Recommendations Division -->
+    <div class="show-recommendations container">
+        <h2>Recommended Movies</h2>
+        <section>
+            <div id="recommendation-container">
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./static/index.js"></script>
+</html>
